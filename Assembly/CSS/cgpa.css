@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Nunito;
+}
+#header{
+  margin:1%;
+  display:inline-block;
+}
+.hval{
+  padding:20px;
+}
+img{
+  height:40px;
+  width:40px;
+}
+h1{
+  display:inline-block;
+  font-size:75px;
+  text-shadow: 2px 2px #6e7c7c;
+  cursor:pointer;
+}
+h2{
+  display:inline-block;
+  margin-left:5%;
+  margin-right: 5%;
+}
+a{
+  text-decoration: none;
+  color:#000000;
+}
+.not{
+  color:#a3a3a3;
+}
+.not:hover{
+  color:#000000;
+  font-weight: bold;
+}
+#current{
+  text-decoration: underline;
+}
+#nav{
+  text-align:right;
+  width:100%;
+}
+#val{
+  text-align:center;
+}
+#cgpa{
+  margin-top: 20px;
+  font-size:70px;
+  display:block;
+}
+h4{
+  font-size:15px;
+  display:block;
+}
+#grade{
+  display:inline-block;
+  text-align: center;
+  width:200px;
+  height:200px;
+  padding:2%;
+  border:2px solid #000000;
+  border-radius:100px;
+  -moz-border-radius:100px;
+  -o-border-radius:100px;
+  -webkit-border-radius:100px;
+}
+#predict{
+  display:inline-block;
+  margin:0.2%;
+  padding:0.5%;
+  border:1px solid #000000;
+  border-radius:20px;
+  -moz-border-radius:20px;
+  -o-border-radius:20px;
+  -webkit-border-radius:20px;
+}
+#predict:hover{
+  color:#ffffff;
+  background-color:#000000;
+}
+#predictor{
+  margin-top:5%;
+}
+#sem{
+  margin-top:12%;
+  text-align:center;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border:1px solid #000000;
+  border-radius:20px;
+  -moz-border-radius:20px;
+  -o-border-radius:20px;
+  -webkit-border-radius:20px;
+}
+#head{
+  font-size:24px;
+}
+#num{
+  margin-top:50px;
+  margin-bottom: 20px;
+}
+.rom{
+  display:inline-block;
+  font-weight: bold;
+  font-size:30px;
+  text-decoration: none;
+  color:#000000;
+  margin:20px;
+  cursor:pointer;
+}
+.urom{
+  display:inline-block;
+  font-weight: bold;
+  font-size:30px;
+  text-decoration: none;
+  color:#6e7c7c;
+  margin:20px;
+  cursor:pointer;
+}
+.urom:hover{
+  color:#000000;
+}
+#gpa{
+  text-align:center;
+  padding:2%;
+  font-weight: bold;
+  border:1px solid #000000;
+  border-radius:20px;
+  -moz-border-radius:20px;
+  -o-border-radius:20px;
+  -webkit-border-radius:20px;
+}
+#gp{
+  width:100%;
+  text-align:center;
+  font-size:24px;
+}
+.va{
+  padding:25px 90px 25px 90px;
+  width:50%;
+}
+#tab1,#tab2{
+  width:100%;
+  margin:none;
+}
+.dat1{
+  width:50%;
+  padding:50px;
+}
+#dat2{
+  padding-top:3%;
+}

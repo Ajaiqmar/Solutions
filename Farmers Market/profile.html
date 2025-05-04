@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>FARMERS MARKET</title>
+		<meta name="author" content="ajai_qmar">
+		<meta name="description" content="Online market for Farmers">
+		<meta name="viewport" content="initial-scale = 1.0 , width = screen-width">
+		<link rel="stylesheet" href="CSS/profile.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+			<h1> PROFILE </h1>
+			<form action="login.html">
+				<div class="space">
+					<input type="username" id="username" name="username" placeholder="(USER'S NAME)"></input>
+				</div>
+				<div id="pass">
+					<input type="password" id="password" name="password" placeholder="(USER'S PASSWORD)" oninput="check_password()"></input>
+					<span class="material-icons" id="material" onclick="toggle_visibility()">visibility</span>
+				</div>
+				<p id="alert"></p>
+				<div class="space">
+				<input type="text" id="email" name="email" placeholder="(USER'S EMAIL-ID)"></input>
+				</div>
+				<div class="space">
+				<input type="tel" id="phonenumber" name="phonenumber" placeholder="(USER'S PHONE NUMBER)"></input>
+				</div>
+				<div class="space">
+				<input type="submit" id="submit" ></input>
+				<div id="edit">
+					<a href="">EDIT</a>
+				</div>
+				</div>
+			</form>
+		</div>
+		<script src="JAVASCRIPT/login.js"></script>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="AJAY KUMAR">
+		<meta name="viewport" content="width=device-width , initial-scale=1.0">
+		<meta name="description" content="Electronic market for Farmers">
+		<title>உழவர் சந்தை</title>
+		<link rel="stylesheet" href="CSS/tlogin.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+	</head>
+	<body>
+		<div id="container">
+			<h1> உள்நுழைய </h1>
+			<form method="POST" action="tvalid.php">
+				<input type="text" id="username" name="username" placeholder="பயனர்பெயர்" required></input><br>
+				<div id="icon">
+					<input type="password" id="password" name="password" placeholder="கடவுச்சொல்" required ></input>
+					<span class="material-icons" onclick="toggle_visibility()" id="material">visibility</span>
+				</div>
+				<div id="submit_box">
+					<input type="submit" id="submit" value="சமர்ப்பிக்கவும்"></input>
+				</div>
+			</form>
+			<p id="alert"></p>
+			<p> கணக்கு இல்லையா? <br><br><a href="tsignup.html" id="sign">பதிவுபெறுக</a> </p>
+		</div>
+		<script src="JAVASCRIPT/login.js"></script>
+	</body>
+</html>

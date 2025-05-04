@@ -1,0 +1,135 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Nunito;
+}
+#header{
+  margin:1%;
+  display:inline-block;
+}
+h3{
+  font-size:24px;
+  font-weight: bold;
+}
+.data{
+  padding:20px;
+}
+img{
+  height:40px;
+  width:40px;
+}
+h1{
+  display:inline-block;
+  font-size:75px;
+  text-shadow: 2px 2px #6e7c7c;
+  cursor:pointer;
+}
+h2{
+  display:inline-block;
+  margin-left:5%;
+  margin-right: 5%;
+}
+a{
+  text-decoration: none;
+  color:#000000;
+}
+.not{
+  color:#a3a3a3;
+}
+.not:hover{
+  color:#000000;
+  font-weight: bold;
+}
+#current{
+  text-decoration: underline;
+}
+#nav{
+  text-align:right;
+  width:100%;
+}
+#predictor{
+  text-align:center;
+  border:2px solid #000000;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -o-border-radius:20px;
+  padding:3%;
+  margin:2%;
+
+}
+.input{
+  display:block;
+  margin:0 auto;
+}
+#cgpa{
+  font-family:Nunito;
+  margin:1%;
+  padding:1%;
+  outline:none;
+  border:1px solid #000000;
+  text-align:center;
+  font-size:24px;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -o-border-radius:20px;
+}
+#submit{
+  display:inline-block;
+  font-family:Nunito;
+  margin-top:1%;
+  padding:0.5%;
+  background-color:#ffffff;
+  border:1px solid #000000;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -o-border-radius:20px;
+  font-weight:bolder;
+  outline:none;
+  cursor:pointer;
+}
+#submit:hover{
+  color:#ffffff;
+  background-color:#000000;
+}
+#analysis{
+  background-color: #ffffff;
+  text-align:center;
+  margin:1%;
+  padding:2%;
+  border:2px solid #000000;
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -o-border-radius:20px;
+  display:none;
+}
+#result{
+  width:100%;
+  font-weight:bold;
+}
+.val{
+  width:50%;
+  padding:2%;
+  font-size:24px;
+}
+h5{
+  font-size:24px;
+  margin:30px;
+}
+#sub{
+  display:none;
+}
+.sem{
+  display:none;
+}
+#malert{
+  margin:1%;
+  font-size:24px;
+  font-weight: bold;
+}

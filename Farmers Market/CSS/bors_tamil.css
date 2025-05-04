@@ -1,0 +1,65 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+body{
+	font-family:"Courier new";
+}
+#container{
+	text-align:center;
+	width:500px;
+	height:500px;
+	transform:translate(715px,220px);
+	border:1px solid #7aff12;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-o-border-radius:20px;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	box-shadow:5px 10px 18px #888888;
+	
+}
+h3{
+	display:inline-block;
+	color:#7aff12;
+}
+h2{
+	font-size:30px;
+}
+#buy
+{
+	margin-bottom:40px;
+}
+#sell
+{
+	margin-top:40px;
+}
+a{
+	text-decoration:none;
+	color:#7aff12;
+}
+a:hover{
+	color:#ff4f30;
+	cursor:pointer;
+}
+.line{
+	width:100px;
+	border-top:2px solid #7aff12;
+	display:inline-block;
+	position:relative;
+	bottom:3px;
+}
+#head{
+	font-variant:small-caps;
+	margin-bottom:100px;
+	padding-top:20px;
+	font-size:25px;
+	color:#000000;;
+}
+
+h2{
+	margin:25px;
+}
+

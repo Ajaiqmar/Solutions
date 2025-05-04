@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>FARMERS MARKET</title>
+		<meta name="author" content="ajai_qmar">
+		<meta name="description" content="Online market for Farmers">
+		<meta name="viewport" content="initial-scale = 1.0 , width = screen-width">
+		<link rel="stylesheet" href="CSS/signup.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	</head>
+	<body>
+		<div id="container">
+			<h1> SIGN UP </h1>
+			<form action="signup.php" method="POST">
+				<div class="space">
+					<input type="username" id="username" name="username" placeholder="USERNAME" required></input>
+				</div>
+				<div id="pass">
+					<input type="password" id="password" name="password" placeholder="PASSWORD" oninput="check_password()" required></input>
+					<span class="material-icons" id="material" onclick="toggle_visibility()">visibility</span>
+				</div>
+				<div class="space">
+				<input type="text" id="email" name="email" placeholder="EMAIL-ID" required></input>
+				</div>
+				<div class="space">
+				<input type="tel" id="phonenumber" name="phonenumber" placeholder="PHONE NUMBER" required></input>
+				</div>
+				<div class="space">
+				<input type="submit" id="submit" ></input>
+				</div>
+			</form>
+			<p>ALREADY HAVE AN ACCOUNT?<br> <a href="login.html" id="login"> LOG IN </a></p>
+		</div>
+		<script src="JAVASCRIPT/login.js"></script>
+	</body>
+</html>

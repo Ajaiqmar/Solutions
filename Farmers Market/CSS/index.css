@@ -1,0 +1,55 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+h1{
+	font-variant:small-caps;
+	margin-bottom:250px;
+	font-size:75px;
+}
+a{
+	display:inline-block;
+	text-decoration:none;
+	color:#ffffff;
+	outline:none;
+	border:2px solid #ffffff;
+	border-radius:40px;
+	-webkit-border-radius:40px;
+	-o-border-radius:40px;
+	-moz-border-radius:40px;
+	-ms-border-radius:40px;
+}
+a:hover{
+	color:#000000;
+	background-color:#ffffff;
+	cursor:pointer;
+}
+#tamil{
+	margin-right:150px;
+	font-size:20px;
+	padding:20px;
+}
+#english{
+	margin-left:175px;
+	font-variant:small-caps;
+	font-size:25px;
+	padding:15px;
+}
+#contents{
+	font-family:"Courier new";
+	text-align:center;
+	margin:100px;
+	transform:translate(0,-1000px);
+	color:#ffffff;
+}
+img{
+	background-image:url("IMAGES/market.jpg");
+	background-color:#9BC693;
+	height:1000px;
+	width:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter:brightness(0.4);
+}
